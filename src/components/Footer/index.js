@@ -66,9 +66,9 @@ const Footer = () => {
           </FooterLinkContainer>
           <SocialMedia>
             <SocialMediaWrap>
-              <SocialLogo to="/" onClick={backHome}>TC-Covid</SocialLogo>
+              <SocialLogo to="/" onClick={backHome}>Cổng Dịch Vụ Công An</SocialLogo>
               <WebsiteRights>
-                TC-Covid {new Date().getFullYear()}
+                Cổng Dịch Vụ Công An {new Date().getFullYear()}
                 All right reserved
               </WebsiteRights>
               <SocialIcon>

@@ -22,7 +22,7 @@ const NavBar = ({ toggle }) => {
       <Nav>
         <NavbarContainer>
           <NavLogo to="/" onClick={backHome}>
-            TC-Covid
+            Nerver Give Up
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
@@ -36,7 +36,7 @@ const NavBar = ({ toggle }) => {
                 spy={true}
                 offset={-80}
               >
-                About
+                Giới thiệu 
               </NavLinks>
             </NavItem>
             <NavItem>
@@ -47,7 +47,7 @@ const NavBar = ({ toggle }) => {
                 spy={true}
                 offset={-80}
               >
-                Discover
+                Đăng kí tạm trú
               </NavLinks>
             </NavItem>
             <NavItem>
@@ -58,7 +58,7 @@ const NavBar = ({ toggle }) => {
                 spy={true}
                 offset={-80}
               >
-                Services
+                Điều khoản
               </NavLinks>
             </NavItem>
             <NavItem>
@@ -69,12 +69,12 @@ const NavBar = ({ toggle }) => {
                 spy={true}
                 offset={-80}
               >
-                Sign Up
+                Đăng kí tạm vắng
               </NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/signin">Sign In</NavBtnLink>
+            <NavBtnLink to="/signin">Quản Lí</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

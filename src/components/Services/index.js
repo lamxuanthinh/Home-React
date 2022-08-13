@@ -12,27 +12,27 @@ const Services = () => {
   return (
     <>
       <ServicesContainer id="services">
-        <ServicesH1>Our Services</ServicesH1>
+        <ServicesH1>Điều Khoản</ServicesH1>
         <ServicesWrapper>
           <ServicesCard>
             <ServicesIcon src={require('../../images/docter_01.png')} />
-            <ServicesH2>Reduce expenses</ServicesH2>
+            <ServicesH2>Điều 1</ServicesH2>
             <ServicesP>
-              we help reduce your fess and increase your overall revenue.
+            coming soon
             </ServicesP>
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon src={require('../../images/docter_02.jpg')} />
-            <ServicesH2>Virtual offices</ServicesH2>
+            <ServicesH2>Điều 2</ServicesH2>
             <ServicesP>
-              You can access uor plaform online anyWhere in the world.
+            coming soon
             </ServicesP>
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon src={require('../../images/docter_03.jpg')} />
-            <ServicesH2>Premium Benefits</ServicesH2>
+            <ServicesH2>Điều 3</ServicesH2>
             <ServicesP>
-              Unlock our special memberShip Card that return 5% cash back.
+            coming soon
             </ServicesP>
           </ServicesCard>
         </ServicesWrapper>

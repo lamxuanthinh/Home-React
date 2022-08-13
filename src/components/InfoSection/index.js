@@ -39,7 +39,7 @@ const InfoSection = ({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <SubTitle darkText={darkText}>{description}</SubTitle>
                 <BtnWrapper>
-                  <BtnLink to="home">{buttonLable}</BtnLink>
+                  <BtnLink to="/dangki">{buttonLable}</BtnLink>
                 </BtnWrapper>
               </TextWrapper>
             </Column1>

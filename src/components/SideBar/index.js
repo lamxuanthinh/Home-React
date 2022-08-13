@@ -10,22 +10,30 @@ import {
   SidebarBtnLink,
 } from "./SideBarElements";
 
-const SideBar = ({isOpen, toggle}) => {
+const SideBar = ({ isOpen, toggle }) => {
   return (
     <>
-      <SidebarContainer isOpen={isOpen} >
-        <Icon onClick={toggle} >
+      <SidebarContainer isOpen={isOpen}>
+        <Icon onClick={toggle}>
           <CloseIcon />
         </Icon>
         <SidebarWrapper>
           <SidebarMenu>
-            <SidebarLink to="about" onClick={toggle} >About</SidebarLink>
-            <SidebarLink to="discover" onClick={toggle} >Discover</SidebarLink>
-            <SidebarLink to="services" onClick={toggle} >Services</SidebarLink>
-            <SidebarLink to="signup" onClick={toggle} >Sign Up</SidebarLink>
+            <SidebarLink to="about" onClick={toggle}>
+              Giới thiệu
+            </SidebarLink>
+            <SidebarLink to="discover" onClick={toggle}>
+              Đăng kí tạm trú
+            </SidebarLink>
+            <SidebarLink to="services" onClick={toggle}>
+              Điều khoản
+            </SidebarLink>
+            <SidebarLink to="signup" onClick={toggle}>
+              Đăng kí tạm vắng
+            </SidebarLink>
           </SidebarMenu>
           <SidebarBtn>
-            <SidebarBtnLink to="signin">Sign In</SidebarBtnLink>
+            <SidebarBtnLink to="signin">Quản lí</SidebarBtnLink>
           </SidebarBtn>
         </SidebarWrapper>
       </SidebarContainer>

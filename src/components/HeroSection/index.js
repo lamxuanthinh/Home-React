@@ -32,10 +32,9 @@ const HeroSection = () => {
           />
         </HeroBg>
         <HeroContent>
-          <HeroH1>Virtual Banking Made Easy</HeroH1>
+          <HeroH1>Cổng Dịch Vụ Công quốc gia</HeroH1>
           <HeroP>
-            Sign up for a new account today and receive @250$ in credit towards
-            your next payment.
+            Mọi hành vi mạo danh đăng kí giả , sẽ chịu trách nhiệm với pháp luật.
           </HeroP>
           <HeroBtnWraper onMouseEnter={onHover} onMouseLeave={onHover}>
             <BtnLink
@@ -45,7 +44,7 @@ const HeroSection = () => {
               spy={true}
               offset={-80}
             >
-              Get Started {hover ? <ArrowForward /> : <ArrowRight />}
+              Đăng kí ngay {hover ? <ArrowForward /> : <ArrowRight />}
             </BtnLink>
           </HeroBtnWraper>
         </HeroContent>
